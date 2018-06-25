@@ -1,0 +1,71 @@
+@mixin border-none-r0() {
+	border:none;
+	border-radius: 0;
+}
+@mixin line-clamp($lineHeight,$numLine){
+    line-height: $lineHeight;
+    height: $lineHeight * $numLine;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $numLine;
+    overflow: hidden;
+}
+@mixin btn-left($top,$left){
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+@mixin btn-right($top,$right){
+    position: absolute;
+    top: $top;
+    right: $right;
+}
+
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+$mobile_320 : "(max-width: 425px)";
+$xsp : "(max-width: 480px)";
+$xs : "(min-width: 481px) and (max-width: 767px)";
+$sm : "(min-width: 768px) and (max-width: 991px)";
+$md : "(min-width: 992px) and (max-width: 1199px)";
+$lg : "(min-width: 1200px)";
+ 
+@mixin responsive_320() {
+    @media #{$mobile_320} {
+        @content;
+    }
+}
+
+@mixin responsive_xsp() {
+    @media #{$xsp} {
+        @content;
+    }
+}
+
+@mixin responsive_xs() {
+    @media #{$xs} {
+        @content;
+    }
+}
+
+@mixin responsive_sm() {
+    @media #{$sm} {
+        @content;
+    }
+}
+
+@mixin responsive_md() {
+    @media #{$md} {
+        @content;
+    }
+}
+
+@mixin responsive_lg() {
+    @media #{$lg} {
+        @content;
+    }
+}

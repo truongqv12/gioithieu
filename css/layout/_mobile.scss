@@ -1,0 +1,16 @@
+// $xs : "(min-width: 481px) and (max-width: 767px)";
+@include responsive_xs {
+	
+}
+
+// $xsp : "(max-width: 480px)";
+@include responsive_xsp {
+	.col-xsp-12{
+		width: 100%;
+	}
+}
+
+// $mobile_320 : "(max-width: 425px)";
+@include responsive_320 {
+	
+}

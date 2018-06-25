@@ -1,0 +1,164 @@
+// product carousel
+//@extend-elements
+//original selectors
+//.carousel-control.left, .carousel-control.right
+%extend_1 {
+	margin-right: 40px;
+	margin-left: 32px;
+	background-image: none;
+	opacity: 1;
+}
+.pr-block{
+	.active > div {
+		display: none;
+		&:first-child {
+			display: block;
+		}
+	}
+}
+.carousel-control {
+	width: 8%;
+	width: 0;
+	&.left {
+		@extend %extend_1;
+	}
+	&.right {
+		@extend %extend_1;
+	}
+	> a > span {
+		color: #fff;
+		font-size: 29px !important;
+	}
+}
+.carousel-col {
+	position: relative;
+	min-height: 1px;
+	padding: 5px;
+	float: left;
+	.pr-block {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+
+/*xs*/
+@media (max-width: 767px) {
+	.carousel-inner--modify {
+		.active {
+			&.left {
+				left: -50%;
+			}
+			&.right {
+				left: 50%;
+			}
+		}
+		.next {
+			left: 50%;
+		}
+		.prev {
+			left: -50%;
+		}
+	}
+	.carousel-col {
+		width: 50%;
+	}
+	.active > div:first-child + div {
+		display: block;
+	}
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.carousel-inner--modify {
+		.active {
+			&.left {
+				left: -33.333333%;
+			}
+			&.right {
+				left: 33.333333%;
+			}
+		}
+		.next {
+			left: 33.333333%;
+		}
+		.prev {
+			left: -33.333333%;
+		}
+	}
+	.carousel-col {
+		width: 33.333333%;
+	}
+	.active > div:first-child + div {
+		display: block;
+		+ div {
+			display: block;
+		}
+	}
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.carousel-inner--modify {
+		.active {
+			&.left {
+				left: -25%;
+			}
+			&.right {
+				left: 25%;
+			}
+		}
+		.next {
+			left: 25%;
+		}
+		.prev {
+			left: -25%;
+		}
+	}
+	.carousel-col {
+		width: 25%;
+	}
+	.active > div:first-child + div {
+		display: block;
+		+ div {
+			display: block;
+			+ div {
+				display: block;
+			}
+		}
+	}
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+	.carousel-inner--modify {
+		.active {
+			&.left {
+				left: -25%;
+			}
+			&.right {
+				left: 25%;
+			}
+		}
+		.next {
+			left: 25%;
+		}
+		.prev {
+			left: -25%;
+		}
+	}
+	.carousel-col {
+		width: 25%;
+	}
+	.active > div:first-child + div {
+		display: block;
+		+ div {
+			display: block;
+			+ div {
+				display: block;
+			}
+		}
+	}
+}
+
+//colors
