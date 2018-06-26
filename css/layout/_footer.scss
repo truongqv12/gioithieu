@@ -1,12 +1,12 @@
 .footer{
 	background: #F0F0E9;
 	&-top{
+		padding: 0 20px;
 		.container {
 			border-bottom: 1px solid #E0E0DA;
   			padding-bottom: 20px;
 		}
 		.companyinfo{
-			margin-top: 57px;
 			h2{
 				color: #B4B1AB;
 			  	font-size: 27px;
@@ -23,7 +23,7 @@
 			}
 		}
 		.address {
-			margin-top: 30px;
+			margin-top: 20px;
 			position: relative;
 			overflow: hidden;
 			img{width: 100%}
@@ -39,6 +39,7 @@
 		}
 	}
 	&-widget {
+		padding: 0 20px;
 		margin-bottom: 30px;
 		.container{
 			border-top: 1px solid #FFFFFF;
@@ -72,6 +73,7 @@
 		}
 	}
 	&-bottom {
+			padding: 0 20px;
 		background: #D6D6D0;
   		padding-top: 10px;
   		p{

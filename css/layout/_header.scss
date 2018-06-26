@@ -4,6 +4,7 @@ $dropDown       : false;
 	.navbar-default {
 		min-height: $height_nav;
 		margin-bottom: 0;
+		padding: 0 15px;
 		background-color: $bg-default;
 		border: none;
 		.navbar-brand {

@@ -4,17 +4,19 @@
 		margin: 20px 0;
 		&__head{
 			background-color: $bg-default;
-			text-align: center;
-			padding: 20px 0;
-			font-weight: bold;
-			color: #fff;
-			font-size: 20px;
+    		text-align: center;
+		    padding: 15px 0;
+		    font-weight: bold;
+		    color: #fff;
+		    font-size: 19px;
+		    margin-bottom: 10px;
 		}
 		&__content{
 			.company{
 				overflow: hidden;
 				margin-bottom: 20px;
 				&__item{
+					margin-top: 5px;
 					position: relative;
 				    border: 1px solid $bg-default;
 					overflow: hidden;
@@ -97,6 +99,14 @@
 					img{
 						height: $height_product_block_item;
 						width: 100%;
+						-webkit-transform: scale(1);
+						transform: scale(1);
+						-webkit-transition: .3s ease-in-out;
+						transition: .3s ease-in-out;
+						&:hover{
+							-webkit-transform: scale(1.3);
+							transform: scale(1.3);
+						}
 					}
 				}
 			}

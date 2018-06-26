@@ -14,6 +14,7 @@ body {
 .header .navbar-default {
   min-height: 80px;
   margin-bottom: 0;
+  padding: 0 15px;
   background-color: #157239;
   border: none; }
   .header .navbar-default .navbar-brand {
@@ -68,7 +69,7 @@ body {
     .header .navbar-default .navbar-link:hover {
       color: #000; }
 .header .banner .carousel-inner .item {
-  height: 300px; }
+  height: 250px; }
   .header .banner .carousel-inner .item img {
     width: 100%;
     height: 100%; }
@@ -104,11 +105,11 @@ body {
 
 .footer {
   background: #F0F0E9; }
-  .footer-top .container {
-    border-bottom: 1px solid #E0E0DA;
-    padding-bottom: 20px; }
-  .footer-top .companyinfo {
-    margin-top: 57px; }
+  .footer-top {
+    padding: 0 20px; }
+    .footer-top .container {
+      border-bottom: 1px solid #E0E0DA;
+      padding-bottom: 20px; }
     .footer-top .companyinfo h2 {
       color: #B4B1AB;
       font-size: 27px;
@@ -119,20 +120,21 @@ body {
       color: #B3B3AD;
       font-size: 12px;
       font-weight: 300; }
-  .footer-top .address {
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden; }
-    .footer-top .address img {
-      width: 100%; }
-    .footer-top .address p {
-      color: #666663;
-      font-size: 14px;
-      font-weight: 300;
-      left: 25px;
-      position: absolute;
-      top: 50px; }
+    .footer-top .address {
+      margin-top: 20px;
+      position: relative;
+      overflow: hidden; }
+      .footer-top .address img {
+        width: 100%; }
+      .footer-top .address p {
+        color: #666663;
+        font-size: 14px;
+        font-weight: 300;
+        left: 25px;
+        position: absolute;
+        top: 50px; }
   .footer-widget {
+    padding: 0 20px;
     margin-bottom: 30px; }
     .footer-widget .container {
       border-top: 1px solid #FFFFFF;
@@ -155,6 +157,7 @@ body {
         background: none;
         color: #0084ff; }
   .footer-bottom {
+    padding: 0 20px;
     background: #D6D6D0;
     padding-top: 10px; }
     .footer-bottom p {
@@ -273,14 +276,16 @@ body {
   .main-item__head {
     background-color: #157239;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     font-weight: bold;
     color: #fff;
-    font-size: 20px; }
+    font-size: 19px;
+    margin-bottom: 10px; }
   .main-item__content .company, .main-item__content .pr-block {
     overflow: hidden;
     margin-bottom: 20px; }
     .main-item__content .company__item, .main-item__content .pr-block__item {
+      margin-top: 5px;
       position: relative;
       border: 1px solid #157239;
       overflow: hidden;
@@ -341,7 +346,14 @@ body {
     height: 300px; }
     .main-item__content .pr-block__img img {
       height: 300px;
-      width: 100%; }
+      width: 100%;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out; }
+      .main-item__content .pr-block__img img:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3); }
 
 @media (max-width: 480px) {
   .col-xsp-12 {
