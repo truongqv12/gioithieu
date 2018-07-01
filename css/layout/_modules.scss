@@ -42,8 +42,34 @@
 }
 
 
+/*xsp*/
+@media (max-width: 480px) {
+	.carousel-inner--modify {
+		.active {
+			&.left {
+				left: -100%;
+			}
+			&.right {
+				left: 100%;
+			}
+		}
+		.next {
+			left: 100%;
+		}
+		.prev {
+			left: -100%;
+		}
+	}
+	.carousel-col {
+		width: 100%;
+	}
+	.active > div:first-child{
+		display: block;
+	}
+}
+
 /*xs*/
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
 	.carousel-inner--modify {
 		.active {
 			&.left {
