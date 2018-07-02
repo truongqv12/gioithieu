@@ -524,6 +524,10 @@
 </html>
 
 <script>
+	$("img.img-responsive").lazyload({
+        effect : "fadeIn"
+    });
+
 	$('.carousel[data-type="multi"] .item').each(function() {
 		var next = $(this).next();
 		if (!next.length) {
