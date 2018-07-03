@@ -1,3 +1,7 @@
+
+
+
+
 // Sass helpers
 @import "helpers/var";
 @import "helpers/mixins";
@@ -10,7 +14,9 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/layout";
-@import "layout/modules";
+
+//module
+@import "module/multi.carousel";
 
 //page
 
