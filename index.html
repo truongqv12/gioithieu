@@ -8,13 +8,13 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<header id="header" class="header">
 		<!-- menu -->
-		<div class="container">
-			<nav class="menu navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container p-0">
+			<nav class="menu navbar navbar-default navbar-static-top wow bounceInDown animated" data-wow-delay="0.1s" role="navigation">
 				
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -90,13 +90,17 @@
 			</nav><!-- /menu -->
 		</div>
 		<!-- giới thiệu -->
-		<section class="intro text-center">
-			<h1 class="headline wow bounceIn animated">Công ty Cổ phần Create Capital Việt Nam</h1>  
-			<p class="wow bounceIn animated" 
-				data-wow-delay=".5s">
-				Tham gia chương trình Affiliate của chúng tôi và kiếm tiền ngay hôm nay!
-			</p>
-		</section>
+		<div class="container">
+			<section class="intro text-center wow bounceIn animated" data-wow-delay=".5s">
+				<h1 class="intro__headline wow bounceIn animated" data-wow-delay=".5s">Công ty Cổ phần Create Capital Việt Nam</h1>  
+				<p class="intro__text wow bounceIn animated" 
+					data-wow-delay=".5s">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quis? Eveniet harum a maiores, voluptate reiciendis repellat doloremque officiis, qui odio id dolor repudiandae ipsum nemo adipisci. Rerum eaque, harum?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quis? Eveniet harum a maiores, voluptate reiciendis repellat doloremque officiis, qui odio id dolor repudiandae ipsum nemo adipisci. Rerum eaque, harum?
+				</p>
+			</section>
+		</div>
+		
 	</header><!-- /header -->
 
 	<main class="main">
@@ -506,6 +510,7 @@
 	<script src="js/jquery.backstretch.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script>
+		new WOW().init();
 		$("body").backstretch("images/banner/banner.png")
 
 		$('.carousel[data-type="multi"] .item').each(function() {

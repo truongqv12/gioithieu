@@ -1,10 +1,10 @@
 .menu {
 	min-height: $height_nav;
-	padding: 0 15px;
+	// padding: 0 15px;
 	background-color: $bg-default;
 	border: none;
     margin: 0 auto;
-    max-width: 1280px;
+    // max-width: 1280px;s
 	.navbar-brand {
 		color: $color-white;
 		padding: 0 15px;
@@ -142,7 +142,9 @@
 					line-height: 16px;
 				}
 				ul{
+					
 					li{
+						padding-left: 30px;
 						a{
 							display: block;
 							color: #f2f2f2;
