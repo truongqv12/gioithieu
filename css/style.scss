@@ -7,6 +7,7 @@
 @import "helpers/mixins";
 
 // base
+@import "base/nomalize";
 @import "base/base";
 
 // Layout related stylesheets
@@ -16,6 +17,7 @@
 @import "layout/layout";
 
 //module
+@import "module/nav.menu";
 @import "module/multi.carousel";
 
 //page
