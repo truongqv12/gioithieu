@@ -1,0 +1,16 @@
+.btn_go_top{
+    i{
+        color: #fff;
+    }
+	position: fixed;
+	bottom: 50px;
+    right: 10px;
+    background: #365DB5;
+    height: 38px;
+    line-height: 36px;
+    width: 38px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
