@@ -46,15 +46,15 @@
 				position: relative;
 			    border: 1px solid $bg-default;
 				overflow: hidden;
-				height: 300px;
+				height: $height_product_block_item;
 				&__img{
-					height: 300px;
+					height: $height_product_block_item;
 					margin: 0;
 					padding: 0;
 					background: #fff;
 					overflow: hidden;
 					img{
-						height: 300px;
+						height: $height_product_block_item;
 						width: 100%;
 						-webkit-transform: rotate(0) scale(1);
 						transform: rotate(0) scale(1);
