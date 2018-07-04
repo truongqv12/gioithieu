@@ -15,12 +15,24 @@
 			a{
 				color: #fff;
 				&:hover{
-					color: #702b15;
+					color: #4d4dff;
 				}
 			}
 		}
 		&__img{
-			padding: 15px 20px;
+			overflow: hidden;
+			padding: 10px 0;
+			img{
+				width: 100%;
+				-webkit-transform: scale(1);
+				transform: scale(1);
+				-webkit-transition: .3s ease-in-out;
+				transition: .3s ease-in-out;
+				&:hover{
+					-webkit-transform: scale(1.3);
+					transform: scale(1.3);
+				}
+			}
 		}
 		&__text{
 			padding: 0 10px 0;
