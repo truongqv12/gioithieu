@@ -24,6 +24,10 @@
 			> a {
 				font-size: 16px; 
 				color: $color-white;
+				&:focus{
+					color: $color-white;
+					background-color: $bg-default;
+				}
 				&:hover{
 					color: #333;
 					background-color: #fff;
@@ -69,6 +73,7 @@
 					right: 4%;
 					top: 34%;
 				}
+				&:focus > a > span > i:before,
 				&:hover > a > span > i:before{
 					content: "\f0d7";
 				}
@@ -116,6 +121,7 @@
 			}
 			
 			li {
+				
 				&:hover > a{
 					background-color: #fff;
 					color: #333;
@@ -135,6 +141,9 @@
 	
 }
 @media (max-width: 767px) {
+	.mobile-p-0{
+		padding: 0;
+	}
 	.menu{
 		.navbar-nav {
 			.root-menu{
