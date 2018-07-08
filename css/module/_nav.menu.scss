@@ -1,7 +1,7 @@
 .menu {
 	min-height: $height_nav;
 	// padding: 0 15px;
-	background-color: $bg-default;
+	background-color: $bg_default;
 	border: none;
     margin: 0 auto;
     // max-width: 1280px;s
@@ -11,7 +11,7 @@
 		height: $height_nav;
 		line-height: $height_nav;
 		&:hover, &:focus {
-			color: $color-black; 
+			color: $color_font;
 		}
 	}
 
@@ -26,7 +26,7 @@
 				color: $color-white;
 				&:focus{
 					color: $color-white;
-					background-color: $bg-default;
+					background-color: $bg_default;
 				}
 				&:hover{
 					color: #333;
@@ -43,10 +43,10 @@
 		padding: 9px 10px !important;
 		border-color: $bg-whitle;
 		&:hover {
-			background-color: $bg-default;
+			background-color: $bg_default;
 		}
 		&:focus {
-			background-color: $bg-default;
+			background-color: $bg_default;
 		}
 		.icon-bar {
 			background-color: $color-white; 
@@ -59,7 +59,7 @@
 	.navbar-link {
 		color: $color-white;
 		&:hover {
-			color: $color-black; 
+			color: $color_font;
 		}
 	}
 }

@@ -24,7 +24,7 @@
 		@extend %extend_1;
 	}
 	> a > span {
-		color: #10562b;
+		color: $bg_default;
 		font-size: 29px !important;
 	}
 }

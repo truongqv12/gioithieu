@@ -17,6 +17,11 @@ $(document).ready(function($) {
 		}
 	});
 
+    $(".images").hover( function (e) {
+        $(this).find('img').toggleClass('pulse animated infinite', e.type === 'mouseenter');
+    });
+
+    // GÂU TU TỐP
 	$("a.btn_go_top").click(function() {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 	    return false;
