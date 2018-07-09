@@ -47,20 +47,26 @@
 				margin: 0;
 				color: #fff;
 				font-weight: bold;
-				padding: 10px 20px 10px 10px;
+				padding: 0 20px 0 10px;
 				position: relative;
 				background-color: $bg-default;
+				line-height: 42px;
+				height: 42px;
+				width: -moz-max-content;
+				width: -webkit-max-content;
+				width: -o-max-content;
 				width: max-content;
 				&:after{
 					content: "";
 					background: $bg-default;
-					width: 100%;
+					width: 42px;
+					height: 42px;
 					display: block;
 					position: absolute;
 					top: 0;
 					left: 100%;
-					border-top: 41.6px solid white;
-					border-left: 41.6px solid transparent;
+					border-top: 42px solid white;
+					border-left: 42px solid transparent;
 				}
 			}
 		}
@@ -98,59 +104,6 @@
 					float: right;
 				}
 			}
-			//.product{
-			//	margin: 10px 0;
-			//	position: relative;
-			//    border: 1px solid $bg-default;
-			//	overflow: hidden;
-			//	height: $height_product_block_item;
-			//	&__img{
-			//		height: $height_product_block_item;
-			//		margin: 0;
-			//		padding: 0;
-			//		background: #fff;
-			//		overflow: hidden;
-			//		img{
-			//			height: $height_product_block_item;
-			//			width: 100%;
-			//			-webkit-transform: rotate(0) scale(1);
-			//			transform: rotate(0) scale(1);
-			//			-webkit-transition: .8s ease-in-out;
-			//			transition: .8s ease-in-out;
-			//			&:hover{
-			//				-webkit-transform: rotate(15deg) scale(1.4);
-			//				transform: rotate(15deg) scale(1.4);
-			//			}
-			//		}
-			//	}
-			//	&__name{
-			//		width: 100%;
-			//		background: rgba(0,0,0,.7);
-			//	    position: absolute;
-			//	    bottom: 0;
-			//	    left: 0;
-			//	    right: 0;
-			//	    @include line-clamp(50px,1);
-			//	    padding-left: 15px;
-			//	    a{
-			//	    	margin: 0;
-			//		    padding: 0;
-			//		    font-size: 100%;
-			//		    vertical-align: baseline;
-			//		    background: transparent;
-			//	    	color: $color-white;
-			//			font-weight: bold;
-			//			font-size: 16px;
-			//			transition: .5s;
-			//	    	&:link{
-			//	    		text-decoration: none;
-			//	    	}
-			//	    	&:hover{
-			//	    		color: $color-hover;
-			//	    	}
-			//	    }
-			//	}
-			//}
 		}
 	}	
 }
