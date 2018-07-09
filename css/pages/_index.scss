@@ -1,5 +1,35 @@
 .main{
 	padding-bottom: 20px;
+	.icon-block{
+      padding: 30px;
+      overflow: hidden;
+      border-bottom: 1px solid #ddd;
+      .media{
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: -o-max-content;
+        width: max-content;
+        margin: 0 auto;
+        &-left{
+          display: table-cell;
+          vertical-align: top;
+          img{
+            padding-right: 10px;
+          }
+        }
+        &-body{
+          display: table-cell;
+          vertical-align: middle;
+          h4{
+            text-transform: uppercase;
+          }
+        }
+      }
+      span{
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+	}
 	.company-block{
 		padding-top: 20px;
 		overflow: hidden;
