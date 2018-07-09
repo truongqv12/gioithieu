@@ -66,7 +66,15 @@
 
 @media (min-width: 767px) {
 	.menu{
+		.navbar-collapse{
+			padding-right: 65px;
+		}
+		.navbar-brand{
+
+		}
 		.navbar-nav {
+			//float: none;
+			//display: inline-block;
 			.root-menu{
 				span{
 					position: absolute;
@@ -106,6 +114,7 @@
 							clear: both;
 							color: #333;
 							font-size: 16px;
+							//text-align: left;
 	    					&:hover{
 	    						background-color: #f5f5f5;
 	    					}
