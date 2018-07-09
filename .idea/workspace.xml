@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc1fa12-19fa-4e19-a83d-0b1c9d687255" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/helpers/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/helpers/_var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/module/_nav.menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/module/_nav.menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +45,9 @@
       <file leaf-file-name="_nav.menu.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/module/_nav.menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+            <state relative-caret-position="267">
+              <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
               <folding>
-                <element signature="e#1258#1269#0" />
-                <element signature="e#1498#1509#0" />
                 <element signature="e#1260#2433#0" />
               </folding>
             </state>
@@ -88,8 +84,8 @@
       <file leaf-file-name="_var.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/helpers/_var.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="10" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+            <state relative-caret-position="276">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -109,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/helpers/_var.scss" />
         <option value="$PROJECT_DIR$/css/module/_btn.go.to.top.scss" />
         <option value="$PROJECT_DIR$/css/base/_base.scss" />
         <option value="$PROJECT_DIR$/css/module/_multi.carousel.scss" />
@@ -117,6 +112,7 @@
         <option value="$PROJECT_DIR$/codong.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/helpers/_var.scss" />
         <option value="$PROJECT_DIR$/css/module/_nav.menu.scss" />
       </list>
     </option>
@@ -206,12 +202,12 @@
       <workItem from="1531053841207" duration="11231000" />
       <workItem from="1531098389156" duration="6528000" />
       <workItem from="1531108700297" duration="547000" />
-      <workItem from="1531118079689" duration="2049000" />
+      <workItem from="1531118079689" duration="3631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20355000" />
+    <option name="totallyTimeSpent" value="21937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -222,8 +218,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
@@ -284,8 +280,6 @@
         <state relative-caret-position="1242">
           <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
           <folding>
-            <element signature="e#1258#1269#0" />
-            <element signature="e#1498#1509#0" />
             <element signature="e#1260#2433#0" />
           </folding>
         </state>
@@ -353,8 +347,6 @@
         <state relative-caret-position="1242">
           <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
           <folding>
-            <element signature="e#1258#1269#0" />
-            <element signature="e#1498#1509#0" />
             <element signature="e#1260#2433#0" />
           </folding>
         </state>
@@ -422,8 +414,6 @@
         <state relative-caret-position="3519">
           <caret line="153" column="20" lean-forward="true" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
           <folding>
-            <element signature="e#1258#1269#0" />
-            <element signature="e#1498#1509#0" />
             <element signature="e#1260#2433#0" />
           </folding>
         </state>
@@ -514,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/helpers/_var.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="10" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="276">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -536,11 +526,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/module/_nav.menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        <state relative-caret-position="267">
+          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
           <folding>
-            <element signature="e#1258#1269#0" />
-            <element signature="e#1498#1509#0" />
             <element signature="e#1260#2433#0" />
           </folding>
         </state>

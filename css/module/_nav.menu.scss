@@ -81,29 +81,30 @@
 			position: relative;
 			background-color: $bg_default;
 			padding-right: 80px;
+			height: $height_nav;
 			&:after{
 				content: "";
 				background: $bg_default;
-				width: 80px;
-				height: 80px;
+				width: $height_nav;
+				height: $height_nav;
 				display: block;
 				position: absolute;
 				top: 0;
 				right: 0;
-				border-top: 80px solid white;
-				border-left: 80px solid transparent;
+				border-top: $height_nav solid white;
+				border-left: $height_nav solid transparent;
 			}
 			&:before{
 				content: "";
 				background: $bg_default;
-				width: 80px;
-				height: 80px;
+				width: $height_nav;
+				height: $height_nav;
 				display: block;
 				position: absolute;
 				top: 0;
 				right: 100%;
-				border-bottom: 80px solid white;
-				border-right: 80px solid transparent;
+				border-bottom: $height_nav solid white;
+				border-right: $height_nav solid transparent;
 			}
 			.root-menu{
 				span{
@@ -169,8 +170,8 @@
 					opacity: 1;
 				}
 				> a {
-			    	/* (80px - line-height of 27px) / 2 = 26.5px */
-					padding: 27px 20px;
+			    	/* (77px - line-height of 27px) / 2 = 27px */
+					padding: 25px 20px;
 				    line-height: 27px;
 			    }
 			}
