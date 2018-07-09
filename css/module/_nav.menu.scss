@@ -6,7 +6,7 @@
     margin: 0 auto;
     // max-width: 1280px;s
 	.navbar-brand {
-		color: $color-white;
+		color: $color_font;
 		padding: 0 15px;
 		height: $height_nav;
 		line-height: $height_nav;
@@ -66,15 +66,45 @@
 
 @media (min-width: 767px) {
 	.menu{
+		background-color: #fff;
 		.navbar-collapse{
-			padding-right: 65px;
+
 		}
 		.navbar-brand{
-
+			position: absolute;
+			top: 0;
+			left: 63px;
 		}
 		.navbar-nav {
 			//float: none;
 			//display: inline-block;
+			position: relative;
+			background-color: $bg_default;
+			padding-right: 80px;
+			&:after{
+				content: "";
+				background: $bg_default;
+				width: 80px;
+				height: 80px;
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				border-top: 80px solid white;
+				border-left: 80px solid transparent;
+			}
+			&:before{
+				content: "";
+				background: $bg_default;
+				width: 80px;
+				height: 80px;
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 100%;
+				border-bottom: 80px solid white;
+				border-right: 80px solid transparent;
+			}
 			.root-menu{
 				span{
 					position: absolute;
@@ -130,7 +160,6 @@
 			}
 			
 			li {
-				
 				&:hover > a{
 					background-color: #fff;
 					color: #333;
@@ -141,7 +170,7 @@
 				}
 				> a {
 			    	/* (80px - line-height of 27px) / 2 = 26.5px */
-					padding: 26.5px 20px;
+					padding: 27px 20px;
 				    line-height: 27px;
 			    }
 			}
