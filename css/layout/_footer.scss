@@ -1,5 +1,5 @@
 .footer{
-	background: #F0F0E9;
+	background: $bg_default;
 	&-top{
 		padding: 0 20px;
 		.container {
@@ -8,15 +8,15 @@
 		}
 		.companyinfo{
 			h2{
-				color: #B4B1AB;
+				color: #fff;
 			  	font-size: 27px;
 			  	text-transform: uppercase;
 			  	span{
-			  		color:#0084ff;
+			  		color:#fff;
 			  	}
 			}
 			p{
-				color: #B3B3AD;
+				color: #fff;
 				// font-family: 'Roboto', sans-serif;
 				font-size: 12px;
 				font-weight: 300;
@@ -28,7 +28,7 @@
 			overflow: hidden;
 			img{width: 100%}
 			p{
-				color: #666663;
+				color: #fff;
 				// font-family: 'Roboto', sans-serif;
 				font-size: 14px;
 				font-weight: 300;
@@ -47,7 +47,7 @@
 		}
 		.single-widget{
 			h2{
-				color: #666663;
+				color: #fff;
 				font-family: 'Roboto', sans-serif;
 				font-size: 16px;
 				font-weight: 500;
@@ -57,7 +57,7 @@
 			ul{
 				li {
 					a {
-					color: #8C8C88;
+					color: #fff;
 				    // font-family: 'Roboto', sans-serif;
 				    font-size: 14px;
 				    font-weight: 300;
@@ -65,7 +65,7 @@
 						i{ margin-right: 18px;}
 						&:hover{
 							background:none;
-							color:#0084ff;
+							color:#99ff33;
 						}
 					}
 				} 
@@ -73,17 +73,17 @@
 		}
 	}
 	&-bottom {
-			padding: 0 20px;
-		background: #D6D6D0;
+		padding: 0 20px;
+		background: #fff;
   		padding-top: 10px;
   		p{
-  			color: #363432;
+  			color: #fff;
 			// font-family: 'Roboto', sans-serif;
 			font-weight: 300;
 			margin-left: 15px;
 			span{
 				a{
-					color: #0084ff;
+					color: #fff;
 					font-style: italic;
 					text-decoration: underline;
 				}

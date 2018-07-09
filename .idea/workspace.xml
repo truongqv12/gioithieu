@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc1fa12-19fa-4e19-a83d-0b1c9d687255" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/module/_btn.go.to.top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/module/_btn.go.to.top.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaticon/flaticon.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +30,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="134" column="58" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
+            <state relative-caret-position="184">
+              <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -41,32 +49,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_multi.carousel.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/module/_multi.carousel.scss">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1268">
-              <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+            <state relative-caret-position="23">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.menu.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/module/_nav.menu.scss">
+      <file leaf-file-name="_btn.go.to.top.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/module/_btn.go.to.top.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="46">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_index.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/pages/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="e#45#671#0" />
-              </folding>
+            <state relative-caret-position="736">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="67" column="41" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -92,8 +106,8 @@
       <file leaf-file-name="_var.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/helpers/_var.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state>
+              <caret column="35" selection-start-column="29" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -113,15 +127,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/module/_btn.go.to.top.scss" />
         <option value="$PROJECT_DIR$/css/base/_base.scss" />
         <option value="$PROJECT_DIR$/css/module/_multi.carousel.scss" />
         <option value="$PROJECT_DIR$/codong.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/helpers/_var.scss" />
         <option value="$PROJECT_DIR$/css/module/_nav.menu.scss" />
+        <option value="$PROJECT_DIR$/css/layout/_header.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/pages/_index.scss" />
+        <option value="$PROJECT_DIR$/css/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/css/module/_btn.go.to.top.scss" />
       </list>
     </option>
   </component>
@@ -154,6 +170,18 @@
               <item name="webgioithieu" type="b2602c69:ProjectViewProjectNode" />
               <item name="webgioithieu" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webgioithieu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webgioithieu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webgioithieu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webgioithieu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="webgioithieu" type="b2602c69:ProjectViewProjectNode" />
@@ -208,18 +236,18 @@
       <workItem from="1531118079689" duration="3908000" />
       <workItem from="1531122166570" duration="449000" />
       <workItem from="1531125590768" duration="456000" />
-      <workItem from="1531126067392" duration="2441000" />
+      <workItem from="1531126067392" duration="2790000" />
+      <workItem from="1531135598080" duration="1314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25560000" />
+    <option name="totallyTimeSpent" value="27223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25970548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630522" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -228,7 +256,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3280116" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,8 +290,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -326,8 +352,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -390,8 +414,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -461,8 +483,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -532,8 +552,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -593,25 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/module/_btn.go.to.top.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret column="9377" selection-start-column="9377" selection-end-column="9377" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codong.html" />
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -619,16 +618,6 @@
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/helpers/_var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaticon/flaticon.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -644,6 +633,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret column="9168" selection-start-column="9168" selection-end-column="9168" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/module/_nav.menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -651,25 +647,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/module/_multi.carousel.scss">
+    <entry file="file://$PROJECT_DIR$/css/pages/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+        <state relative-caret-position="736">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/helpers/_var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="134" column="58" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
+        <state relative-caret-position="184">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -680,13 +681,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/pages/_index.scss">
+    <entry file="file://$PROJECT_DIR$/css/layout/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#45#671#0" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="67" column="41" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/module/_multi.carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/module/_btn.go.to.top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
