@@ -1,0 +1,47 @@
+.news-content{
+	.module-title{
+		border-bottom: 1px solid #dbdbe3;
+		line-height: 38px;
+		overflow: hidden;
+		text-transform: uppercase;
+		h3{
+			font-size: 16px;
+			margin: 0;
+			padding: 20px;
+			padding-left: 20px;
+		}
+	}
+	.module-content{
+		padding-bottom: 20px;
+		.item{
+			margin-top: 15px;
+			padding: 0px 20px 20px 20px;
+			border-bottom: 1px dashed #dbdbe3;
+			overflow: hidden;
+			.image{
+				float: left;
+				margin-right: 15px;
+			}
+			.desc{
+				overflow: hidden;
+				.title{
+					a{
+						color: $bg_default;
+						font-size: 16px;
+						padding-bottom: 5px;
+						display: block;
+					}
+				}
+				.time{
+					padding-bottom: 5px;
+					color: #666;
+				}
+				.extent{
+					line-height: 22px;
+					font-size: 14px;
+				}
+			}
+
+		}
+	}
+}
